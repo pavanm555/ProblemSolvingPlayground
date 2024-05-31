@@ -13,13 +13,14 @@ public class Anagram {
             return false;
         }
 
-        for(int i=0; i<arr1.length; i++){
+
+       for(int i=0; i<arr1.length; i++){
             if(arr1[i] != arr2[i]){
                 return false;
             }
         }
 
-        return true;
+        return true; 
     }
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);

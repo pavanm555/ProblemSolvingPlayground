@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.List;
 
 public class ShuffleArray {
     public static void main(String[] args) {
@@ -9,7 +10,5 @@ public class ShuffleArray {
 
         intList.toArray(arr);
         System.out.println(Arrays.toString(arr));
-
-
     }
 }

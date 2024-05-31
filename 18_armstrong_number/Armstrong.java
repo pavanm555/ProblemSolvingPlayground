@@ -23,7 +23,7 @@ public class Armstrong {
         return false;
     }
     public static void main(String[] args) {
-        int number = 371;
+        int number = 370;
         if(checkArmstrong(number)){
             System.out.println(number + " is an armstrong number");
         }
